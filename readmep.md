@@ -34,3 +34,11 @@ Visualizing the Results:
 
 A confusion matrix was created using the validation predictions and actual target labels. It was visualized using seaborn's heatmap function.
 A bar plot was created to visualize the counts of the target categories in the test dataset.
+
+Main Findings
+Discussion:
+Both Multinomial NB and Logistic Regression models performed reasonably well in predicting the target variable. The Logistic Regression model slightly outperformed the Multinomial NB model in terms of accuracy, achieving an accuracy of 0.810 compared to 0.808.
+
+Regarding the F1 score, which balances both precision and recall, the Logistic Regression model achieved a higher value of 0.767, while the Multinomial NB model scored 0.760. This indicates that the Logistic Regression model exhibited better overall performance in terms of the trade-off between precision and recall.
+
+Precision represents the ability of a model to correctly classify positive instances, and recall measures the model's ability to identify all positive instances. The Multinomial NB model achieved a precision of 0.815, slightly higher than the Logistic Regression model's precision of 0.804. However, when it comes to recall, the Logistic Regression model outperformed the Multinomial NB model, achieving a recall of 0.733 compared to 0.712.
